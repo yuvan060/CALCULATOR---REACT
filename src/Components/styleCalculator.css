@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.freepik.com/premium-photo/top-view-blue-calculator-notepad-color-background_260672-4055.jpg");
+  background-size: cover;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-right: 200px;
+}
+
+.calculatorDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #e0e0e0;
+  padding: 20px;
+  width: 300px;
+  height: 100px;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.calculatorRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.calculatorBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: #bbdee7;
+  border-radius: 80%;
+  font-size: 24px;
+}
+
+.calculatorBtn:hover {
+  background-color: #ecf6f8;
+}
